@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tone-content{
+    margin: 0;
+    width: 0;
+    height: 0;
+    padding: 0;
+}
+
+.tone{
+    width: 1430px;
+    height: 150px;
+}

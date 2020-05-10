@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@^2/webcomponents-bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tone@13.8.25/build/Tone.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tonejs/ui@0.0.8/build/tonejs-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/nexusui@2.0.10/dist/NexusUI.min.js"></script>
+    <title>Melodia</title>
+</head>
+
+<body>
+    <div id="wrapper" class="container-fluid h-100">
+        <div class="row h-100">
+            <div class="col-8 h-100 ">
+
+                <tone-content class="tone-content">
+                    <tone-step-sequencer class="tone" id="seq1"></tone-step-sequencer>
+                    <tone-step-sequencer class="tone" id="seq2"></tone-step-sequencer>
+                    <tone-step-sequencer class="tone" id="seq3"></tone-step-sequencer>
+                    <tone-step-sequencer class="tone" id="seq4"></tone-step-sequencer>
+                    <tone-step-sequencer class="tone" id="seq5"></tone-step-sequencer>
+                    <tone-step-sequencer class="tone" id="seq6"></tone-step-sequencer>
+                </tone-content>
+
+            </div>
+
+            <div class="col-4 h-100">
+
+                <div class="row m-auto">
+                    <div id="switch" class="d-flex col mt-5 mb-4 justify-content-center align-items-center">
+                        <h5 id="playState" class="mr-5">Play :</h5>
+                    </div>
+                </div>
+                <div class="row m-auto">
+                    <div id="tempo" class="d-flex col mt-4 mb-4 justify-content-center align-items-center">
+                        <h5 id="bpmValue" class="mr-5">BPM : 128</h5>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mt-4 mb-4 ">
+                        <div id="audioPlayer"
+                            class=" d-flex col mt-4 mb-4 justify-content-center align-items-center p-1 d-block">
+                            <audio controls class=""></audio>
+                            <button id="save" class=" ml-3 mr-auto btn btn-danger p-auto">Save</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/action.js"></script>
+</body>
+</html>
