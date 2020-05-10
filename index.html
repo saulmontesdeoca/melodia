@@ -1,180 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
 <head>
+    <script src="https://cdn.jsdelivr.net/npm/tone@13.8.25/build/Tone.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tonejs/ui@0.0.8/build/tonejs-ui.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <title>Document</title>
+    <title>Melodia</title>
 </head>
 <body>
     
-    <input type="checkbox" id="_checkbox"><label for="_checkbox"></label>
-    <input type="checkbox" id="_checkbox"><label for="_checkbox"></label>
-    <input type="checkbox" id="_checkbox"><label for="_checkbox"></label>
-    <input type="checkbox" id="_checkbox"><label for="_checkbox"></label>
-    <input type="checkbox" id="_checkbox"><label for="_checkbox"></label>
-    <input type="checkbox" id="_checkbox"><label for="_checkbox"></label>
-    <input type="checkbox" id="_checkbox"><label for="_checkbox"></label>
-    <input type="checkbox" id="_checkbox"><label for="_checkbox"></label>
-
+    <div class="drums">
+        <div>
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+        </div>
+        <div>
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+        </div>
+        <div>
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+        </div>
+        <div>
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+        </div>
+        <div>
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+        </div>
+        <div>
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+        </div>
+        <div>
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+        </div>
+        <div>
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+        </div>
+    </div>
+    
     <script src="js/action.js"></script>
     
 </body>
 </html>
-=======
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style/style.css" />
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@^2/webcomponents-bundle.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/tone@13.8.25/build/Tone.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tonejs/ui@0.0.8/build/tonejs-ui.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/nexusui@2.0.10/dist/NexusUI.min.js"></script>
-    <title>Melodia</title>
-  </head>
-
-  <body>
-    <div id="navigation">
-      <div class="go-back">
-        <a
-          href="http://8bit-code.com/article/styling-checkboxes-and-radio-buttons-with-css"
-          title="Styling checkboxes and radio buttons with CSS"
-          target="_blank"
-          >&larr; to article</a
-        >
-      </div>
-      <div class="article-title">
-        <a
-          href="http://8bit-code.com/article/styling-checkboxes-and-radio-buttons-with-css"
-          title="Styling checkboxes and radio buttons with CSS"
-          target="_blank"
-          >Styling checkboxes and radio buttons with CSS</a
-        >
-      </div>
-    </div>
-    <!-- #navigation -->
-
-    <div class="container">
-      <div class="box blue">
-        <h1>Using background-image</h1>
-        <input type="checkbox" id="1" />
-        <label for="1"><span class="checkbox"></span> </label>
-        <input type="radio" id="5" />
-        <label for="5"><span class="radiobtn"></span> </label>
-      </div>
-      <div class="box green">
-        <h1>Using background-image w/ transparent filling</h1>
-        <input type="checkbox" id="2" checked />
-        <label for="2"><span class="checkbox"></span> </label>
-        <input type="radio" id="6" checked />
-        <label for="6"><span class="radiobtn"></span> </label>
-        <h2>(refresh the page to see the color change)</h2>
-      </div>
-      <div class="box dark-blue">
-        <h1>Using plain CSS (:before & :after)</h1>
-        <input type="checkbox" id="3" />
-        <label for="3"><span class="checkbox"></span> </label>
-        <input type="radio" id="7" />
-        <label for="7"><span class="radiobtn"></span> </label>
-      </div>
-      <div class="box orange">
-        <h1>Using inline SVG</h1>
-        <input type="checkbox" id="4" />
-        <label for="4">
-          <span class="checkbox">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              enable-background="new 0 0 24 24"
-            >
-              <path
-                fill="#95a5a6"
-                d="M21.7 3.2c-.3-.3-.8-.3-1.1 0l-11.2 11.1c-.3.3-.8.3-1.1 0l-4.9-5c-.1-.1-.3-.2-.5-.2s-.4.1-.5.2l-2.2 1.9c-.1.2-.2.4-.2.6 0 .2.1.4.2.5l4.9 5.2 1.1 1.1 2.1 2.1c.3.3.8.3 1.1 0l14.4-14.3c.3-.3.3-.8 0-1.1l-2.1-2.1z"
-              />
-            </svg>
-          </span>
-        </label>
-        <input type="radio" id="8" />
-        <label for="8">
-          <span class="radiobtn">
-            <svg width="100px" height="100px">
-              <circle cx="50" cy="50" r="15" fill="#95a5a6" />
-            </svg>
-          </span>
-        </label>
-      </div>
-    </div>
-    <!-- .container -->
-    <!-- <div id="wrapper" class="container-fluid h-100">
-      <div class="row h-100 m-0 p-0">
-        <div class="col-8 h-100">
-          <tone-content class="tone-content">
-            <tone-step-sequencer class="tone" id="seq1"></tone-step-sequencer>
-            <tone-step-sequencer class="tone" id="seq2"></tone-step-sequencer>
-            <tone-step-sequencer class="tone" id="seq3"></tone-step-sequencer>
-            <tone-step-sequencer class="tone" id="seq4"></tone-step-sequencer>
-          </tone-content>
-        </div>
-
-        <div class="col-4 h-100">
-          <div class="row m-auto">
-            <div
-              id="switch"
-              class="d-flex col mt-5 mb-4 justify-content-center align-items-center"
-            >
-              <h5 id="playState" class="mr-5">Play :</h5>
-            </div>
-          </div>
-          <div class="row m-auto">
-            <div
-              id="tempo"
-              class="d-flex col mt-4 mb-4 justify-content-center align-items-center"
-            >
-              <h5 id="bpmValue" class="mr-5">BPM : 128</h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col mt-4 mb-4">
-              <div
-                id="audioPlayer"
-                class="d-flex col mt-4 mb-4 justify-content-center align-items-center p-1 d-block"
-              >
-                <audio controls class=""></audio>
-                <button id="save" class="ml-3 mr-auto btn btn-danger p-auto">
-                  Save
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <div class="menu" id="menu">
-      <div class="row">
-        <img
-          src="https://media3.giphy.com/media/fsKlPTZ9lPgJPftBC0/giphy.gif?cid=19f5b51a813152f5d590abce491369c20526b1dbae6cd7f9&rid=giphy.gif"
-          alt=""
-        />
-        <p class="logo">Melodia</p>
-      </div>
-      <div class="row">
-        <button class="btn btn-outline-light" onClick="action();">
-          Get Started!
-        </button>
-      </div>
-    </div>
-
-    <script src="js/action.js"></script>
-  </body>
-</html>
->>>>>>> 3cbf0d13700a29ca12bf0c5c05f63a14803f74ed
